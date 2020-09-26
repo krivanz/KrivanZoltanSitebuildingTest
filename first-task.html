@@ -3,54 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
     <title>Document</title>
 
-    <style>
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            grid-template-rows: repeat(5, 1fr);
-            grid-gap: 5px;
-        }
-
-        .item-header {
-            background: violet;
-            grid-column: 1/6;
-            grid-row: 1/2;
-        }
-
-        .item-aside {
-            background: yellow;
-            grid-column: 5/6;
-            grid-row: 2/5;
-        }
-
-        .item-footer {
-            background: blue;
-            grid-column: 1/6;
-            grid-row: 5/6;
-        }
-
-        .item-main {
-            background: red;
-            grid-column: 1/5;
-            grid-row: 2/5;
-        }
-
-        .body {
-            margin: 10%;
-        }
-    </style>
+    
 
 </head>
 
 <body>
+
+    <div class="name-label">
+        <a href="./second-task.html" target="_blank">Kriván Zoltán<a>
+    </div>
+
    <div class="grid-container">
         <div class="item-header">header</div>
         <div class="item-aside">navbar</div>
         <div class="item-main">main</div>
         <div class="item-footer">footer</div>
     </div>
+
+    <ol>A hét napjai:
+        <li>Hétfő</li>
+        <dd>Munka</dd>
+        <li>Kedd</li>
+        <dd>Munka</dd>
+        <li>Szerda</li>
+        <dd>Munka</dd>
+        <li>Csütörtök</li>
+        <dd>Munka</dd>
+        <li>Péntek</li>
+        <dd>Munka</dd>
+        <li>Szombat</li>
+        <dd>Pihi</dd>
+        <li>Vasárnap</li>
+        <dd>Pihi</dd>
+        
+    </ol>
+    
 </body>
 
 </html>
