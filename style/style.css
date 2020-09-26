@@ -43,5 +43,25 @@
             margin: 10%;
         }
 
-        .button
-    
+        .flex-container {
+            height: 500px;
+            width: 500px;
+            
+        }
+
+        .flex-item-1 {
+            justify-items: left;
+           
+        }
+        .flex-item-2 {
+
+        }
+        .flex-item-3 {
+
+        }
+        .flex-item-4 {
+
+        }
+        .flex-item-5 {
+
+        }
