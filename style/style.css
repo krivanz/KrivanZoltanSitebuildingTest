@@ -1,0 +1,43 @@
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+            grid-gap: 5px;
+
+        }
+
+        .item-header {
+            background: violet;
+            grid-column: 1/6;
+            grid-row: 1/2;
+        }
+
+        .item-aside {
+            background: yellow;
+            grid-column: 5/6;
+            grid-row: 2/5;
+        }
+
+        .item-footer {
+            background: blue;
+            grid-column: 1/6;
+            grid-row: 5/6;
+        }
+
+        .item-main {
+            background: red;
+            grid-column: 1/5;
+            grid-row: 2/5;
+        }
+
+        .name-label {
+            color: magenta;
+            font-size: large;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .body {
+            margin: 10%;
+        }
+    
