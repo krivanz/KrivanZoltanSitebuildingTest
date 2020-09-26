@@ -1,9 +1,11 @@
 
         .grid-container {
             display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            grid-template-rows: repeat(5, 1fr);
+            grid-template-columns: repeat(5, 30px);
+            grid-template-rows: repeat(5, 30px);
             grid-gap: 5px;
+            border-color: black;
+            box-shadow: 2 2 2 #000000;
 
         }
 
